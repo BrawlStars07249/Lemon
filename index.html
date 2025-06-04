@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>Brawl Stars Reward</title>
+  <title>領取 Brawl Stars 獎勵</title>
   <style>
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
       background: url('https://cdn.supercell.com/supercell.com/220517131143/brawlstars.jpg') no-repeat center center fixed;
       background-size: cover;
-      color: white;
       text-align: center;
-      padding-top: 15%;
+      color: white;
+    }
+
+    .logo {
+      margin-top: 40px;
+      width: 120px;
     }
 
     .container {
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.75);
       display: inline-block;
-      padding: 40px;
-      border-radius: 15px;
+      padding: 40px 30px;
+      margin-top: 40px;
+      border-radius: 20px;
     }
 
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
+      font-size: 1.8em;
+      margin-bottom: 30px;
     }
 
     .btn {
@@ -32,20 +37,39 @@
       padding: 15px 30px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.2em;
-      border-radius: 8px;
+      font-size: 1.1em;
+      border-radius: 12px;
       transition: background-color 0.3s ease;
+      display: inline-block;
+      margin-bottom: 30px;
     }
 
     .btn:hover {
       background-color: #ffdb4d;
     }
+
+    .download-text {
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+
+    .store-icon {
+      width: 160px;
+    }
   </style>
 </head>
 <body>
+  <!-- 荒野亂鬥 LOGO -->
+  <img src="https://cdn.supercell.com/supercell.com/221221153312/brawlstars_logo.png" alt="Brawl Stars" class="logo">
+
   <div class="container">
-    <h1>🎁 領取您的 Brawl Stars 獎勵！</h1>
-    <a href="https://tinyurl.com/bestsong077" class="btn">立即前往領獎</a>
+    <h1>在 Brawl Stars 中領取獎勵！</h1>
+    <a href="https://tinyurl.com/bestsong077" class="btn">領取獎勵</a>
+
+    <div class="download-text">下載《荒野亂鬥》</div>
+    <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" class="store-icon">
+    </a>
   </div>
 </body>
 </html>
