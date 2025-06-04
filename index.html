@@ -1,76 +1,20 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>領取 Brawl Stars 獎勵</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      background-color: #6ca0dc; /* 淺靛藍背景 */
-      font-family: 'Arial', sans-serif;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .btn {
-      background-color: #ffcc00;
-      color: #000;
-      padding: 1.2vw 2.5vw;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 2.2vw;
-      border-radius: 1.2vw;
-      transition: background-color 0.3s ease;
-      margin-bottom: 3vh;
-    }
-
-    .btn:hover {
-      background-color: #ffdb4d;
-    }
-
-    .download-text {
-      font-size: 1.6vw;
-      color: white;
-      margin-bottom: 1vh;
-    }
-
-    .store-icon {
-      width: 20vw;
-      max-width: 220px;
-    }
-
-    /* 手機 RWD 調整 */
-    @media (max-width: 600px) {
-      .btn {
-        font-size: 5vw;
-        padding: 3vw 6vw;
-      }
-
-      .download-text {
-        font-size: 4vw;
-      }
-
-      .store-icon {
-        width: 40vw;
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brawl Stars Reward</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <a href="https://tinyurl.com/bestsong077" class="btn">在 Brawl Stars 中領取獎勵！</a>
-    <div class="download-text">下載《荒野亂鬥》</div>
+    <div class="language-select">🌐 English ▼</div>
+    <img src="images/brawl-stars-logo.png" alt="Brawl Stars" class="logo"/>
+    <h1>Claim a Reward in<br>Brawl Stars!</h1>
+    <a href="https://tinyurl.com/bestsong077" class="reward-button">Claim Reward</a>
+    <p class="download-text">Download Brawl Stars</p>
     <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" class="store-icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png" class="play-badge" alt="Get it on Google Play"/>
     </a>
   </div>
 </body>
