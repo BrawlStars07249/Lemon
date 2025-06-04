@@ -4,44 +4,33 @@
   <meta charset="UTF-8">
   <title>領取 Brawl Stars 獎勵</title>
   <style>
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #6ca0dc; /* 淺靛藍背景 */
       font-family: 'Arial', sans-serif;
-      background: url('https://cdn.supercell.com/supercell.com/220517131143/brawlstars.jpg') no-repeat center center fixed;
-      background-size: cover;
-      text-align: center;
-      color: white;
-    }
-
-    .logo {
-      margin-top: 40px;
-      width: 120px;
     }
 
     .container {
-      background: rgba(0, 0, 0, 0.75);
-      display: inline-block;
-      padding: 40px 30px;
-      margin-top: 40px;
-      border-radius: 20px;
-    }
-
-    h1 {
-      font-size: 1.8em;
-      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
     }
 
     .btn {
       background-color: #ffcc00;
       color: #000;
-      padding: 15px 30px;
+      padding: 1.2vw 2.5vw;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1em;
-      border-radius: 12px;
+      font-size: 2.2vw;
+      border-radius: 1.2vw;
       transition: background-color 0.3s ease;
-      display: inline-block;
-      margin-bottom: 30px;
+      margin-bottom: 3vh;
     }
 
     .btn:hover {
@@ -49,23 +38,36 @@
     }
 
     .download-text {
-      font-size: 1em;
-      margin-bottom: 10px;
+      font-size: 1.6vw;
+      color: white;
+      margin-bottom: 1vh;
     }
 
     .store-icon {
-      width: 160px;
+      width: 20vw;
+      max-width: 220px;
+    }
+
+    /* 手機 RWD 調整 */
+    @media (max-width: 600px) {
+      .btn {
+        font-size: 5vw;
+        padding: 3vw 6vw;
+      }
+
+      .download-text {
+        font-size: 4vw;
+      }
+
+      .store-icon {
+        width: 40vw;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- 荒野亂鬥 LOGO -->
-  <img src="https://cdn.supercell.com/supercell.com/221221153312/brawlstars_logo.png" alt="Brawl Stars" class="logo">
-
   <div class="container">
-    <h1>在 Brawl Stars 中領取獎勵！</h1>
-    <a href="https://tinyurl.com/bestsong077" class="btn">領取獎勵</a>
-
+    <a href="https://tinyurl.com/bestsong077" class="btn">在 Brawl Stars 中領取獎勵！</a>
     <div class="download-text">下載《荒野亂鬥》</div>
     <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" class="store-icon">
