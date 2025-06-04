@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,66 +9,86 @@
       margin: 0;
       font-family: 'Arial', sans-serif;
       background-color: #1e49d6;
-      background-image: url('https://i.imgur.com/3kU0gHo.png'); /* 可更換背景圖 */
+      background-image: url('https://i.imgur.com/s5cLwD1.png'); /* 藍底星星背景 */
       background-size: cover;
       background-repeat: repeat;
       color: white;
       text-align: center;
-    }.container {
-  padding: 20px;
-}
+    }
 
-.language-select {
-  text-align: right;
-  margin: 10px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
+    .container {
+      padding: 20px;
+    }
 
-h1 {
-  font-size: 24px;
-  margin: 80px 0 30px;
-}
+    .language-select {
+      text-align: right;
+      margin: 10px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
 
-.reward-button {
-  display: inline-block;
-  background-color: #ffcc00;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 15px 30px;
-  border-radius: 10px;
-  text-decoration: none;
-  box-shadow: 0 4px 0 #b39100;
-  transition: transform 0.1s ease;
-}
+    .logo {
+      margin: 40px 0 20px;
+    }
 
-.reward-button:active {
-  transform: translateY(2px);
-}
+    .logo img {
+      width: 120px;
+      height: auto;
+    }
 
-.download-text {
-  margin-top: 30px;
-  font-size: 18px;
-  color: white;
-}
+    h1 {
+      font-size: 24px;
+      margin: 20px 0 30px;
+    }
 
-.play-badge {
-  margin-top: 10px;
-  width: 200px;
-}
+    .reward-button {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 15px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 0 #b39100;
+      transition: transform 0.1s ease;
+    }
 
+    .reward-button:active {
+      transform: translateY(2px);
+    }
+
+    .download-text {
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+    }
+
+    .play-badge {
+      margin-top: 10px;
+      width: 200px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="language-select">🌐 English ▼</div>
+
+    <div class="logo">
+      <img src="logo.png" alt="Brawl Icon"/>
+    </div>
+
     <h1>Claim a Reward in<br>Brawl Stars!</h1>
+
     <a href="https://tinyurl.com/bestsong077" class="reward-button">Claim Reward</a>
+
     <p class="download-text">Download Brawl Stars</p>
+
     <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png" class="play-badge" alt="Get it on Google Play"/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
+           class="play-badge"
+           alt="Get it on Google Play"/>
     </a>
   </div>
 </body>
